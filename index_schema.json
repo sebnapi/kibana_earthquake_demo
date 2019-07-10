@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "properties": {
+      "location": {
+        "type": "geo_point"
+      },
+      "DateTime": {
+        "type": "date",
+        "format": "yyyy/MM/dd HH:mm:ss.SS"
+      },
+      "Depth": {
+        "type": "float"
+      },
+      "Magnitude": {
+        "type": "float"
+      },
+      "MagType": {
+        "type": "keyword"
+      },
+      "NbStations": {
+        "type": "keyword"
+      },
+      "Gap": {
+        "type": "integer"
+      },
+      "Distance": {
+        "type": "integer"
+      },
+      "RMS": {
+        "type": "float"
+      },
+      "Source": {
+        "type": "keyword"
+      },
+      "EventID": {
+        "type": "keyword"
+      }
+    }
+  }
+}
